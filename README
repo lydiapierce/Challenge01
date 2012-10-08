@@ -1,0 +1,41 @@
+Challenge 01: Looping, Conditionals, Modules
+============================================
+
+Introduction
+------------
+This challenge combines all the ideas you've learned up until now to do a little directory management. Do the LPTHW exercises, and use the remaining listed resources to help you finish the task.
+
+Description
+-----------
+Included in the exercise is a zipfile, 'files.zip'. It contains 200 files with random character strings for names, all lowercase. First, unzip this file into a directory named 'original_files'.
+
+Your job is to write a program, ex1.py, that does the following things:
+
+1. Create 26 directories in the current directory, one for each letter of the alphabet:
+    ./a/
+    ./b/
+    ./c/
+    etc.
+
+2. Loop through all the files in the original_files directory, and organize each of those files into the directory that their name starts with.
+
+### Example:
+    The file named 'artichoke.txt' would go into the directory './a/',
+    'bartholomew.txt' would go into './b/'.
+
+Here is a very rough outline of the task components:
+* Figure out how to determine a listing of files in a directory (and what format that list is in)
+* Figure out how to move a file from one directory to another
+* Iterate through your listing of files and determine what the appropriate target directory is
+
+Resources
+---------
+* http://learnpythonthehardway.org/book/ex32.html
+* http://learnpythonthehardway.org/book/ex34.html
+* http://www.learnpython.org/page/Lists
+* http://www.learnpython.org/page/Loops
+* http://www.learnpython.org/page/Basic%20String%20Operations
+* http://docs.python.org/library/os.html#os.listdir
+* http://docs.python.org/library/os.html#os.chdir
+* http://docs.python.org/library/os.path.html#os.path.exists
+* http://docs.python.org/library/shutil.html#shutil.move
